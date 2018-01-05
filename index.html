@@ -7,25 +7,19 @@
 </head>
 <body>
 <style type="text/css">
-#bg {
-  width: 100%;
-  height: 100%;
+#his {
+  position: fixed;
+  bottom: 0px;
   left: 0px;
-  top: 0px;
-  z-index: -1;
-  background-size: cover;
-  background-attachment: fixed;
 }
-
-.cover {
-width: 100%;
-height: 100%;
-}
-
 #topsite {
 	background-size: cover;
   background-color: gray;
   margin-top: 35px;
+  background: url("home.JPG") center center;
+  margin-top: 30px;
+  padding-bottom: 460px;
+  padding-top: 460px;
 }
 h2 {
   background-color: orange;
@@ -54,10 +48,31 @@ li a {
 li a:hover {
 	background-color: #111;
 }
-
+.btn-group {
+  margin-bottom: 100px;
+}
+h3 {
+  font-size: 32px;
+  background: -webkit-linear-gradient(orange, aqua);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+h4 {
+  font-size: 32px;
+  background: -webkit-linear-gradient(#00ffff, #009999);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  background-color: orange;
+  opacity:1;
+}
+h4:hover {
+  opacity:0.7; 
+}
+h5 {
+  font-size: 42px;
+  color: aqua;
+}
 </style>
-<div id="bg">
-  <img src="https://raw.githubusercontent.com/irhamff99/profile/gh-pages/home.JPG" class="cover" alt="">
   <div id="topsite">
 <h1>
   <a class="typewrite" data-period="2000" data-type='[ "Hi, I am Irham Fauzi.", "I am Content Creator.", "I Love Design.", "I Love to Develop." ]'>
@@ -68,6 +83,18 @@ li a:hover {
   <h2>
     Welcome to my Profile Website!
   </h2>
+  <h3>
+    Yang baru gabung, bisa langsung aja jelajahi dunia Irham Fauzi,
+  </h3>
+  <h4>
+    untuk mengetahui dan memperdalam ilmu yang dapat diambil dari
+  </h4>
+  <h5>
+    kehidupan seorang Irham Fauzi.
+  </h5>
+  <div id="his">
+  <img src="hite.png">
+</div>
 </div>
 <audio autoplay="true" src="dialog.mp3">
 </div>
